@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   const [title, setTitle] = useState("");
   const [tasks, setTasks] = useState([]);
-  const API =const API = "https://student-task-manager-4z8p.onrender.com/api/tasks";
+  const API ="https://student-task-manager-4z8p.onrender.com/api/tasks";
 
   async function loadTasks() {
     try {
